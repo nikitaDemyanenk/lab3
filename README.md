@@ -15,23 +15,23 @@
 Реализация заданий
 1. Универсальная хэш-таблица (HashTable<K, V>)
 
-Реализован собственный класс, имитирующий поведение стандартных коллекций.
-Основные методы:
+&nbsp;&nbsp;&nbsp;&nbsp;Реализован собственный класс, имитирующий поведение стандартных коллекций.
+&nbsp;&nbsp;&nbsp;&nbsp;Основные методы:
 
-&nbsp;&nbsp;&nbsp;&nbsp;put(K key, V value) — вставка пары. Если ключ уже существует, значение обновляется.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;put(K key, V value) — вставка пары. Если ключ уже существует, значение обновляется.
 
-&nbsp;&nbsp;&nbsp;&nbsp;get(K key) — поиск значения по ключу за константное время (в среднем).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;get(K key) — поиск значения по ключу за константное время (в среднем).
 
-&nbsp;&nbsp;&nbsp;&nbsp;remove(K key) — удаление элемента из цепочки.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;remove(K key) — удаление элемента из цепочки.
 
-&nbsp;&nbsp;&nbsp;&nbsp;size() и isEmpty() — методы для контроля состояния коллекции.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;size() и isEmpty() — методы для контроля состояния коллекции.
 
 2. Библиотечная система (Вариант 4)
 
-Демонстрация использования встроенного класса java.util.HashMap для решения прикладной задачи учета книг.
+&nbsp;&nbsp;&nbsp;&nbsp;Демонстрация использования встроенного класса java.util.HashMap для решения прикладной задачи учета книг.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Ключ: String (ISBN книги).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ключ: String (ISBN книги).
 
-&nbsp;&nbsp;&nbsp;&nbsp;Значение: Объект класса Book.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Значение: Объект класса Book.
 
-&nbsp;&nbsp;&nbsp;&nbsp;Объект Book: содержит поля title (название), author (автор) и copies (количество экземпляров).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Объект Book: содержит поля title (название), author (автор) и copies (количество экземпляров).
